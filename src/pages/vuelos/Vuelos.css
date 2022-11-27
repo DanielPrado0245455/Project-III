@@ -41,3 +41,8 @@
     border-radius: 6px;
     transition: all 0.375s;
 }
+
+
+.container-vuelos{
+    font-family: 'Poppins', sans-serif;
+}

@@ -48,3 +48,10 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  .container-cuenta{
+    background-color: #E6F5FF;
+    min-height: 100vh;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+  }

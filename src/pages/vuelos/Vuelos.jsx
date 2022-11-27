@@ -10,8 +10,8 @@ const customStyles = {
     rows: {
         style: {
             minHeight: '72px', // override the row height
-            backgroundColor:"#257AFA",
-            color:"#E6F5FF",
+            backgroundColor:"#E6F5FF",
+            color:"#151515",
         },
     },
     headCells: {
@@ -30,7 +30,7 @@ const customStyles = {
         style: {
             paddingLeft: '8px', // override the cell padding for data cells
             paddingRight: '8px',
-            color:"#E6F5FF",
+            color:"#151515",
         },
     },
     header: {
@@ -38,6 +38,7 @@ const customStyles = {
 			color: "#0045AD",
             fontSize: '25px',
 			fontWeight: 800,
+            backgroundColor:"#E6F5FF",
 		},
 	},
 };
@@ -113,7 +114,7 @@ const paginacionOpciones={
 
 const Vuelos = () => {
     return(
-        <div className="container">
+        <div class="container-vuelos container">
             <div>
                 <Navbar/>
             </div>

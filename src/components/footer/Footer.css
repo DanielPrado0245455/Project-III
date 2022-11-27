@@ -7,10 +7,12 @@
 .html-footer{
   font-size: 80px;
   font-family: 'Poppins', sans-serif;
+  background-color: #E6F5FF;
 }
 
 .body-footer{
   font-size: 16px;
+  background-color: #E6F5FF;
 }
 .bd-placeholder-img {
     font-size: 1.125rem;

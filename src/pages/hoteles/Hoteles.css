@@ -1,5 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+.titulo-pais{
+  display: flex;
+  height: 1px;
+  width: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  pointer-events: none;
+  color: #0045AD;
+}
+
+#root{
+  background-color: #E6F5FF;
+}
+
+.container{
+  background-color: #E6F5FF;
+}
+.page-hotel{
+  background-color: #E6F5FF;
+}
 
 .body-hotel {
   display: grid;
@@ -7,14 +30,12 @@
   justify-content: center;
   align-items: center;
   font-family: "Lato";
-  background: blue;
 }
 
 .container-hotel {
   width: 1000px;
   display: flex;
   justify-content: space-between;
-  background: red;
 }
 .container-hotel .card-hotel {
   margin: 1em;

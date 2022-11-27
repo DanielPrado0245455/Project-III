@@ -1,5 +1,13 @@
 import "./Carrousel.css";
-import cubo from "./img/cadena-de-bloques.png"
+import Rusia from "./img/Rusia.jpg";
+import Italia from "./img/Italia.jpg";
+import Mexico from "./img/Mexico.jpg";
+import Francia from "./img/Francia.jpg";
+import Colombia from "./img/colombia.jpg";
+import Argentina from "./img/Argentina.jpg";
+import España from "./img/Espana.jpg";
+
+
 const Carrousel = () => {
     return(
         <body class="body-carrousell">
@@ -8,63 +16,63 @@ const Carrousel = () => {
                     <div class="carousel-item active">
                         <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell1">
-                        <img src={cubo} alt=""/>
+                        <img src={Rusia} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#1"><button>Rusia</button></a>
                         </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell2">
-                        <img src={cubo} alt=""/>
+                        <img src={Mexico} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#2"><button>México</button></a>
                         </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                     <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell3">
-                        <img src={cubo} alt=""/>
+                        <img src={Francia} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#3"><button>Francia</button></a>
                         </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                     <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell4">
-                        <img src={cubo} alt=""/>
+                        <img src={Italia} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#4"><button>Italia</button></a>
                         </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                     <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell5">
-                        <img src={cubo} alt=""/>
+                        <img src={Colombia} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#5"><button>Colombia</button></a>
                         </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                     <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell6">
-                        <img src={cubo} alt=""/>
+                        <img src={Argentina} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#6"><button>Argentina</button></a>
                         </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                     <div class="d-block"></div>
                         <div class="card-carrousell card-carrousell7">
-                        <img src={cubo} alt=""/>
+                        <img src={España} alt=""/>
                         <div class="content">
-                            <button>Discover</button>
+                            <a href="#7"><button>España</button></a>
                         </div>
                         </div>
                     </div>

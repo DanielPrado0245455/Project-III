@@ -2,7 +2,7 @@ import "./Navbar.css";
 import hotel from "./img/hotel.png";
 import avion from "./img/avion.png";
 import usuario from "./img/usuario.png";
-import CarRent from "./img/alquiler-de-coches.png";
+import palmera from "./img/isla.png";
 import { Link } from "react-router-dom";
 import React from "react";
 
@@ -24,9 +24,9 @@ const Navbar = () => {
                         <span class="icon span-navbar"><img src={hotel} alt="" class="img-navbar"></img></span>
                         <span class="txt span-navbar">HOTELES</span>
                     </Link>
-                    <Link   class="elista-navbar" style={{'--w':'#0045AD','--e':'#0045AD'}}>
-                        <span class="icon span-navbar"><img src={CarRent} alt="" class="img-navbar"></img></span>
-                        <span class="txt span-navbar">Alquiler</span>
+                    <Link to="/recomendaciones"  class="elista-navbar" style={{'--w':'#0045AD','--e':'#0045AD'}}>
+                        <span class="icon span-navbar"><img src={palmera} alt="" class="img-navbar"></img></span>
+                        <span class="txt span-navbar">RECOMENDACIONES</span>
                     </Link>
                     <Link to="/cuenta" class="elista-navbar" style={{'--w':'#0045AD','--e':'#0045AD'}}>
                         <span class="icon span-navbar" ><img src={usuario} alt="" class="img-navbar"></img></span>

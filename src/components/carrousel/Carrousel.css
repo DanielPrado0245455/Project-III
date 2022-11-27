@@ -6,17 +6,27 @@
     
 }
 
-.body-carrousell {
-    background-color: #fff;
-    color: #fff;
 
+
+.body-carrousell {
+    background-color: #C3FFFF;
+    color: #fff;
+    width: 720px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    
 }
 
 .contenido{
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0;
 }
 
 .carrousell{
@@ -33,108 +43,12 @@
     margin: 25px 0;
     width: 100%;
 }
-.card-carrousell1{
-    background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
-.card-carrousell2{
-    background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
-.card-carrousell3{
-    background: linear-gradient(-229deg, #0cebeb, #29ffc6);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
-
-
-.card-carrousell4{
-    background: linear-gradient(-229deg, #88F7F9, #048FFF);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
-.card-carrousell5{
-    background: linear-gradient(-229deg, #0093E9, #80D0C7);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
-.card-carrousell6{
-    background: linear-gradient(-229deg, #cf91ff, #5782F5);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
-
-.card-carrousell7{
-    background: linear-gradient(-229deg, #642B73, #C6426E);
-    border-radius: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
-    min-height: 315px;
-    min-width: 400px;
-    margin: 25px 0;
-    width: 100%;
-}
-
 
 .card-carrousell .content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 @media screen and (max-width: 700px) {
