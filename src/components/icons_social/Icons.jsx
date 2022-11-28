@@ -7,7 +7,7 @@ import Twitter from "./img/gorjeo.png";
 let url="";
 const Icons = () => {
     return(
-        <section>
+        <section class="section-icons">
             <ul class="icon-list">
                 <li class="icon-item">
                 <a href={url} class="icon-link"><img src={Instagram} alt=""></img></a>

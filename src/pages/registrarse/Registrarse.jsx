@@ -25,9 +25,9 @@ const Registrarse = () => {
                             <label for="name" class="input-label">Apellido Materno</label>
                         </div>
                         <div class="input-group-registro">
-                            <input type="text" id="name" required class="input"/>
+                            <input type="tel" id="tel" required class="input"/>
                             <span class="bar"></span>
-                            <label for="name" class="input-label">Teléfono</label>
+                            <label for="tel" class="input-label">Teléfono</label>
                         </div>
                         <div class="input-group-registro">
                             <input type="text" id="name" required class="input"/>

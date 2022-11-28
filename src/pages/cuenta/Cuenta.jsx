@@ -2,6 +2,7 @@ import "./Cuenta.css";
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+import Editar from "./img/escribir.png";
 
 const Cuenta = () => {
     return(
@@ -52,15 +53,27 @@ const Cuenta = () => {
                 <form class="needs-validation" novalidate>
                 <div class="row g-3">
                     <div class="col-sm-6">
-                    <label for="firstName" class="form-label">Nombres</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required/>
-                    <div class="invalid-feedback">
-                        Valid first name is required.
-                    </div>
+                        <div class="container-cuenta-editar">
+                        <label for="firstName" class="form-label">Nombres 
+                            <button class="secondary button-edit">
+                                <img src={Editar} class="fa" alt=""></img>
+                            </button>
+                        </label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required/>
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                        </div>
                     </div>
 
                     <div class="col-sm-6">
-                    <label for="lastName" class="form-label">Apellido Materno</label>
+                    <div class="container-cuenta-editar">
+                        <label for="lastName" class="form-label">Apellido Materno
+                                <button class="secondary button-edit">
+                                    <img src={Editar} class="fa" alt=""></img>
+                                </button>
+                        </label>
+                    </div>         
                     <input type="text" class="form-control" id="lastName" placeholder="" value="" required/>
                     <div class="invalid-feedback">
                         Validar Apellido Paterno
@@ -68,7 +81,13 @@ const Cuenta = () => {
                     </div>
 
                     <div class="col-sm-6">
-                    <label for="firstName" class="form-label">Apellido Paterno</label>
+                    <div class="container-cuenta-editar">
+                        <label for="firstName" class="form-label">Apellido Paterno
+                                <button class="secondary button-edit">
+                                    <img src={Editar} class="fa" alt=""></img>
+                                </button>
+                        </label>
+                    </div>  
                     <input type="text" class="form-control" id="firstName" placeholder="" value="" required/>
                     <div class="invalid-feedback">
                         Validar Apellido Paterno
@@ -76,15 +95,27 @@ const Cuenta = () => {
                     </div>
 
                     <div class="col-sm-6">
-                    <label for="number" class="form-label">Teléfono</label>
-                    <input type="number" class="form-control" id="number" placeholder="" value="" required/>
+                    <div class="container-cuenta-editar">
+                        <label for="tel" class="form-label">Teléfono
+                                <button class="secondary button-edit">
+                                    <img src={Editar} class="fa" alt=""></img>
+                                </button>
+                        </label>
+                    </div>
+                    <input type="tel" class="form-control" id="tel" placeholder="" value="" required/>
                     <div class="invalid-feedback">
                         Validar Apellido Paterno
                     </div>
                     </div>
 
                     <div class="col-12">
-                    <label for="username" class="form-label">Username</label>
+                    <div class="container-cuenta-editar">
+                        <label for="username" class="form-label">Username
+                                <button class="secondary button-edit">
+                                    <img src={Editar} class="fa" alt=""></img>
+                                </button>
+                        </label>
+                    </div>
                     <div class="input-group has-validation">
                         <span class="input-group-text">@</span>
                         <input type="text" class="form-control" id="username" placeholder="Username" required/>
@@ -118,7 +149,13 @@ const Cuenta = () => {
                     </div>
 
                     <div class="col-12">
-                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                    <div class="container-cuenta-editar">
+                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span>
+                                <button class="secondary button-edit">
+                                    <img src={Editar} class="fa" alt=""></img>
+                                </button>
+                        </label>
+                    </div>
                     <input type="email" class="form-control" id="email" placeholder="you@example.com"/>
                     <div class="invalid-feedback">
                         Please enter a valid email address for shipping updates.
@@ -126,7 +163,13 @@ const Cuenta = () => {
                     </div>
 
                     <div class="col-12">
-                    <label for="address" class="form-label">Dirección</label>
+                    <div class="container-cuenta-editar">
+                        <label for="address" class="form-label">Dirección
+                                <button class="secondary button-edit">
+                                    <img src={Editar} class="fa" alt=""></img>
+                                </button>
+                        </label>
+                    </div>
                     <input type="text" class="form-control" id="address" placeholder="1234 Main St" required/>
                     <div class="invalid-feedback">
                         Please enter your shipping address.

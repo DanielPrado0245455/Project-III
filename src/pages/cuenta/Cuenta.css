@@ -55,3 +55,40 @@
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
   }
+
+  .button-edit{
+    /* flexbox */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* this can be anything */
+    height: 22px;
+    width: 22px;
+    margin-left: 10%;
+    margin-bottom: 2px;
+
+  }
+  .fa {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .container-cuenta-editar {
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 100%;
+  }
+
+  .btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+  .form-label{
+    margin-bottom: 0;
+    width: 100%;
+  }

@@ -12,10 +12,16 @@ const Recomendaciones = () =>{
                 <ul class="nav-recomendaciones">
                     <li class="nav-item-recomendaciones g-col-6 g-col-md-4">
                         <h class="titulos-recomendaciones">Lugares visitados</h>
+                        <div class="wrapper">
+                            <input placeholder="Visitados" class="input-recomendaciones" required/>
+                            <div class="validation">*</div>
+                        </div>
                     </li>
                     <li class="nav-item-recomendaciones g-col-6 g-col-md-4">
-                        <input placeholder="¿Dónde vives?" class="input-recomendaciones" required/>
-                        <div class="validation">Requerido</div>
+                        <div class="wrapper">
+                            <input placeholder="¿Dónde vives?" class="input-recomendaciones" required/>
+                            <div class="validation">*</div>
+                        </div>
                     </li>
                     <li class="nav-item-recomendaciones g-col-6 g-col-md-4">
                         <h>Lugares Recomendados</h>
