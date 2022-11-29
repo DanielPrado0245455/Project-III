@@ -139,9 +139,8 @@ const Hoteles = () => {
                         <img src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/314256600.jpg?k=cba10bc5c64ed01a89bd64baac84df8f40710177dd1856931e949b10dd59bf27&o=&hp=1" alt="Umi" class="card-img-top-hotel"/>
                         <div class="card-body-hotel">
                             <h5 class="card-title-hotel">HAB Hotel Bogotá</h5>
-                            <p class="card-text-hotel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                            <a href={url} class="btn-hotel">More</a>
+                            <p class="card-text-hotel">HAB Hotel te espera con servicios de alta calidad, como supermercado o tienda de conveniencia, recepción gratuita organizada todos los días por la dirección y terraza en la azotea. </p>
+                            <a href="https://habhotel.co/" class="btn-hotel">Info</a>
                         </div>
                     </div>
                     <div class="card-hotel g-col-6 g-col-md-4">
