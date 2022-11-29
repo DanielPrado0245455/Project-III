@@ -1,66 +1,31 @@
 import "./Footer.css";
 import Icons from "../icons_social/Icons";
-let url="#";
+import Logo from "./img/agencia-de-viajes.png";
+import { Link } from "react-router-dom";
+import React from "react";
 
 const Footer = () => {
     return(
         <html class="html-footer">
             <body class="body-footer">
                 <div class="border-top">
-                    <footer class="py-5">
-                        <div class="row">
-                        <div class="col-6 col-md-2 mb-3">
-                            <h5>Section</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Home</a></li>
-                                <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Features</a></li>
-                                <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">About</a></li>
-                            </ul>
+                    <footer class="py-2 my-3">
+                        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                            <li class="nav-item"><Link to="/home" class="nav-link px-2 text-muted">M.E. Travel</Link></li>
+                            <li class="nav-item"><Link to="/vuelos" class="nav-link px-2 text-muted">Vuelos</Link></li>
+                            <li class="nav-item"><Link to="/hoteles" class="nav-link px-2 text-muted">Hoteles</Link></li>
+                            <li class="nav-item"><Link to="/recomendaciones" class="nav-link px-2 text-muted">Recomendaciones</Link></li>
+                            <li class="nav-item"><Link to="/cuenta" class="nav-link px-2 text-muted">Sesión</Link></li>
+                        </ul>
+                        <div class="col-md-4 d-flex align-items-center">
+                            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                <img src={Logo} alt=""></img>
+                            </a>
+                            <span class="mb-3 mb-md-0 text-muted">&copy; 2022 M.E. Travel, Inc</span>
                         </div>
-
-                        <div class="col-6 col-md-2 mb-3">
-                            <h5>Section</h5>
-                            <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Features</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">About</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-6 col-md-2 mb-3">
-                            <h5>Section</h5>
-                            <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Features</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href={url} class="nav-link p-0 text-muted">About</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-md-5 offset-md-1 mb-3">
-                            <form>
-                            <h5>Subscribe to our newsletter</h5>
-                            <p>Monthly digest of what's new and exciting from us.</p>
-                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                                <label for="newsletter1" class="visually-hidden">Email address</label>
-                                
-                                <button class="btn btn-primary" type="button">Subscribe</button>
-                            </div>
-                            </form>
-                        </div>
-                        </div>
-
-                        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-                            <ul>
-                                <Icons/>
-                            </ul>
-                        </div>
+                        <ul>
+                            <Icons/>
+                        </ul>        
                     </footer>
                 </div>
             </body>
