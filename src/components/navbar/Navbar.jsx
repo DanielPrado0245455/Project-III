@@ -29,7 +29,7 @@ const Navbar = () => {
             <span class="icon span-navbar">
               <img src={Logo} alt="" class="img-navbar"></img>
             </span>
-            <span class="txt span-navbar">HOME</span>
+            <span class="txt span-navbar">M.E.Travel</span>
           </Link>
           <Link
             to="/vuelos"

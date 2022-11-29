@@ -95,14 +95,23 @@ const Vuelos = () => {
   };
 
   return (
+    <div class="container">
     <>
       <Navbar />
-      <table class="table">
-        <thead>
+      <div class="table-resposive body-tabla">
+        <h1 class="h1-tabla">Vuelos Disponibles</h1>
+      <table class="table align-middle">
+        <thead class="titulos-tabla">
           <tr>
             <th scope="col">ID</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
+            <th scope="col">Aerolinea</th>
+            <th scope="col">Destino </th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
             <th scope="col">Handle</th>
           </tr>
         </thead>
@@ -133,11 +142,13 @@ const Vuelos = () => {
           );
         })}
       </table>
-      <button onClick={buyFlights}>asdfffffffff</button>
+      </div>
+      <button class="btn" onClick={buyFlights}>Agregar</button>
       <div class="container">
         <Footer />
       </div>
     </>
+    </div>
   );
 };
 

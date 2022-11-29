@@ -46,3 +46,21 @@
 .container-vuelos{
     font-family: 'Poppins', sans-serif;
 }
+
+.titulos-tabla{
+    background-color: #0045AD;
+    color: white;
+    font-size: 14px;
+}
+
+td{
+    background-color: #E6F5FF;
+    font-size: 12px;
+}
+
+.h1-tabla{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color:#0045AD;
+}

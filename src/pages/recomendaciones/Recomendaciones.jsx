@@ -54,7 +54,7 @@ const Recomendaciones = () => {
             ))}
           </li>
         </ul>
-        <input
+        <input class="btn"
           type="submit"
           onClick={(event, value) => {
             fetch(" http://127.0.0.1:7000/", {
