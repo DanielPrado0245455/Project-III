@@ -48,7 +48,7 @@ const Recomendaciones = () => {
             </div>
           </li>
           <li class="nav-item-recomendaciones g-col-6 g-col-md-4">
-            <h1><b>Lugares Recomendados</b></h1>
+            <h1 class="h1-recomendaciones"><b>Lugares Recomendados</b></h1>
             {chunks.map((data) => (
               <p>{data["name"]}</p>
             ))}

@@ -134,7 +134,9 @@ const Vuelos = () => {
         })}
       </table>
       <button onClick={buyFlights}>asdfffffffff</button>
-      <Footer />
+      <div class="container">
+        <Footer />
+      </div>
     </>
   );
 };
